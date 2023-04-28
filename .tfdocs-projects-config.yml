@@ -1,0 +1,18 @@
+formatter: "markdown table"
+header-from: main.tf
+content: |-
+    {{ .Header }}
+    
+    ---
+    
+    {{ .Modules }}
+
+    {{ .Resources }}
+
+    {{ .Outputs }}
+
+    {{ .Inputs }}  
+
+    ---
+
+    Created by [@tegarimansyah](https://github.com/tegarimansyah) for [cloud workshop](https://github.com/tegarimansyah/cloud-workshop)
